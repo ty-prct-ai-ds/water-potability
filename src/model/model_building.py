@@ -52,7 +52,7 @@ def save_model(model:RandomForestClassifier, file_path:str) -> None:
 def main():
     try:
         params_path = "params.yaml"
-        data_path = "./data/processed/train_processed.csv"
+        data_path = "./data/processed/train_processed_median.csv"
         model_name = "models/model.pkl"
     
     
